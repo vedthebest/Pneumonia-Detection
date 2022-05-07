@@ -8,7 +8,9 @@ The project is built on Google Colab Jupyter Notebook. Clone this repository to 
 🤔 Problem Statement
 
 In this capstone project, the goal is to build a pneumonia detection system, to locate the position of inflammation in an image. Tissues with sparse material, such as lungs which are full of air, do not absorb the X-rays and appear black in the image. Dense tissues such as bones absorb X-rays and appear white in the image. While we are theoretically detecting “lung opacities”, there are lung opacities that are not pneumonia related. In the data, some of these are labeled “Not Normal No Lung Opacity”. This extra third class indicates that while pneumonia was determined not to be present, there was nonetheless some type of abnormality on the image and oftentimes this finding may mimic the appearance of true pneumonia.
+
 📜 Approach
+
 📈 Step 1: Exploratory Data Analysis & Data Preparation
 
     Understanding the data with a brief on train/test labels and respective class info
